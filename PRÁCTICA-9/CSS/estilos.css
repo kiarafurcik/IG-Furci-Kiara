@@ -1,0 +1,25 @@
+body {
+    background-color: #BD2720;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: gray;
+    text-align: left;
+}
+.lista {
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+}
+.importante {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+}
+#clave {
+    text-decoration: underline;
+    color: orangered
+}
+#fila {
+    background-color: rgb(140, 9, 9);
+    color: white;
+}
