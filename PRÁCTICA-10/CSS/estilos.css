@@ -1,0 +1,104 @@
+/* =========================================
+   Reset y Selectores de Etiqueta (Tags)
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0c10; /* Un fondo bien oscuro */
+    color: #c5c6c7; /* Texto gris claro para no cansar la vista */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    padding: 30px;
+    max-width: 1000px; /* Limita el ancho para que sea más fácil de leer */
+    margin: 0 auto; /* Centra todo el contenido en la pantalla */
+}
+
+h2, h3 {
+    color: #ff2a2a; /* Rojo Stranger Things */
+    margin-top: 35px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+img {
+    border-radius: 8px; /* Suaviza las esquinas de las imágenes */
+    box-shadow: 0 4px 15px rgba(255, 42, 42, 0.15); /* Sombra roja sutil */
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================================
+   Selectores de Clase (Classes)
+   ========================================= */
+.importante {
+    color: #ff2a2a;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Efecto de luz de neón */
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ff2a2a;
+    padding-bottom: 15px;
+}
+
+.lista {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    display: flex; /* Convierte la lista vertical en un menú horizontal */
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #1f2833;
+    border-radius: 8px;
+}
+
+.lista a {
+    text-decoration: none;
+    color: #66fcf1; /* Acento cyan ochentero */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Suaviza la animación del hover */
+}
+
+.lista a:hover {
+    background-color: #66fcf1;
+    color: #0b0c10;
+    box-shadow: 0 0 10px rgba(102, 252, 241, 0.5);
+}
+
+/* =========================================
+   Selectores de ID
+   ========================================= */
+#fila {
+    background-color: transparent;
+    color: #888;
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+    border-top: 1px solid #1f2833;
+    padding-top: 20px;
+}
+
+#clave {
+    color: #ffffff;
+    text-decoration: none;
+    border-left: 5px solid #ff2a2a; /* Una línea decorativa a la izquierda */
+    padding-left: 15px;
+}
+
+/* Declaración de uso de IA: Este diseño fue creado por una inteligencia artificial. Respondiendo a la pregunta sobre que información necesitaba la IA; en mi caso, yo le compartí los archivos html de mi sitio, más la hoja .css que había creado para la práctica 9.
+Por otro lado, comparando mi diseño con el de la IA, noto que su propuesta es mucho más ordenada y concorde a la estética de la serie. En cuestiones de código, el mio es mucho menos extenso que el la IA, por eso es que el mio tiene menor calidad visual. */
