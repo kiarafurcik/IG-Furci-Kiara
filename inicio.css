@@ -1,4 +1,5 @@
-#titulo {
+
+}#titulo {
     color:#1985b4;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
@@ -6,9 +7,4 @@
     text-align: center;
     text-decoration-style: wavy underline;
     text-shadow: 2px 2px white;
-}
-
-body {
-    background-color: #032c60;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
