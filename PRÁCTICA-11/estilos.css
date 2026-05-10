@@ -7,6 +7,10 @@ img {
     width: 27%;
     border: 20px #010824;
 }
+#imagencita {
+    display: block;
+    text-align: center;
+}
 nav {
     background-color: #010824;
     color: white;
