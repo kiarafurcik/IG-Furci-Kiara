@@ -26,6 +26,8 @@ nav ul li a {
     text-align: center;
     background-color: #010824;
     color: white;
+    max-width: 400px;
+    margin: 20px auto;
 }
 .titulos {
     background-color: #010824;
