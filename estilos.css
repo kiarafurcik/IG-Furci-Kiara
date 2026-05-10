@@ -6,12 +6,12 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
 }
-footer {
+footer p {
     background-color: #6e29a2;
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 ul li a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -22,7 +22,4 @@ ul li a {
 a:hover {
     color: #14925b;
     text-decoration: none;
-}
-div { 
-    margin: 200px;
 }
