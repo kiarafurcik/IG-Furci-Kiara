@@ -34,6 +34,7 @@ nav ul li a {
     text-shadow: 2px 2px #a86629;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
+    display: inline-block;
 }
 a:link {
     background-color: #010824;
@@ -59,4 +60,11 @@ main {
 }
 .tamaño {
     font-size: 20px;
+}
+footer {
+    background-color: #010824;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
 }
