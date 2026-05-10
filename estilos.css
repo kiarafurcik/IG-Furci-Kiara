@@ -1,0 +1,17 @@
+
+header {
+    background-color: #6e29a2;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6e29a2;
+    text-decoration: none;
+}
+a:hover {
+    color: #14925b;
+    text-decoration: none;
+}
