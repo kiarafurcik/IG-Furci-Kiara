@@ -7,9 +7,19 @@ img {
     width: 27%;
     border: 20px #010824;
 }
-#imagencita {
-    display: block;
+aside {
     text-align: center;
+    padding: 20px;
+}
+aside blockquote {
+    display: inline-block;
+    text-align: center;
+    max-width: 500px;
+}
+aside img {
+    display: inline-block;
+    margin-top: 15px;
+    width: 60%;
 }
 nav {
     background-color: #010824;
