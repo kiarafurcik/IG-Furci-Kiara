@@ -1,6 +1,6 @@
 body {
     background-image: url(img/fondo.jpg);
-    font-family: 'Arvo', serif;
+    font-family: 'Times New Roman', serif;
     color: black;
 }
 img {
@@ -16,18 +16,30 @@ nav {
     border:#613003 solid 5px;
 }
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin-right: 20px;
 }
 nav ul li a {
-    color: rgb(131, 75, 11, 0.9);
+    color: rgba(167, 127, 48, 0.9);
     text-decoration: none;
 }
 .contenedor {
-    background-color: rgba(111, 56, 1, 0.9);
+    background-color: rgba(184, 126, 69, 0.7);
     margin: 0 auto;
     padding: 20px;
     width: 60%;
     max-width: 1000px;
     box-sizing: border-box;
+}
+hr {
+    border: 1px solid #000000;
+    color: #000000;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ffb834;
 }
