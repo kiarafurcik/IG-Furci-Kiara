@@ -1,0 +1,130 @@
+body {
+    background-color: #fcf9f2; /* Color mármol travertino claro / pergamino */
+    color: #2b2520; /* Marrón tierra oscuro para una lectura suave y antigua */
+    font-family: 'Cormorant Garamond', serif; /* Tipografía elegante y clásica */
+    font-size: 1.25rem; /* Al ser una fuente serif, un tamaño un poco mayor mejora la lectura */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal para darle estructura de libro/guía antigua */
+.container, main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ==========================================================================
+   TIPOGRAFÍA Y TÍTULOS (Estilo Lapidario Romano)
+   ========================================================================== */
+h1, h2, h3, h4 {
+    font-family: 'Cinzel', serif; /* Inspirada en las inscripciones de los monumentos */
+    color: #8c2d19; /* Rojo Pompeyano / Terracota romana */
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3rem;
+    border-bottom: 2px solid #d4af37; /* Línea dorada bajo el título principal */
+    padding-bottom: 15px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #8c2d19;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #5c4033; /* Tono bronce antiguo */
+}
+
+/* ==========================================================================
+   MENÚ DE NAVEGACIÓN
+   ========================================================================== */
+nav {
+    background-color: #8c2d19; /* Fondo rojo pompeyano */
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #fcf9f2;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4af37; /* Al pasar el cursor, brilla en dorado */
+}
+
+/* ==========================================================================
+   COMPONENTES Y DETALLES (Líneas, Mapas e Imágenes)
+   ========================================================================== */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(212, 175, 55, 0), rgba(212, 175, 55, 0.75), rgba(212, 175, 55, 0));
+    margin: 40px 0;
+}
+
+/* Estilo para destacar las facetas (Roma Antigua, Vaticana, Barroca) */
+strong {
+    color: #8c2d19;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+}
+
+/* Ajuste elegante para el mapa y las imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    border: 3px solid #d4af37; /* Marco dorado */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+
+/* ==========================================================================
+   PIE DE PÁGINA (Footer)
+   ========================================================================== */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+    background-color: #2b2520; /* Fondo tierra oscuro */
+    color: #fcf9f2;
+    font-family: 'Cinzel', serif;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #d4af37; /* Enlace de contacto dorado */
+    text-decoration: none;
+    border-bottom: 1px dashed #d4af37;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
