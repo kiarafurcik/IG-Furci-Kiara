@@ -1,0 +1,33 @@
+body {
+    background-image: url(img/fondo.jpg);
+    font-family: 'Arvo', serif;
+    color: black;
+}
+img {
+    width: 30%;
+    height: auto;
+    border: 5px solid #d4d07a;
+}
+nav {
+    background-color: #b08a0e;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: inline-block;
+    border:#613003 solid 5px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: rgb(131, 75, 11, 0.9);
+    text-decoration: none;
+}
+.contenedor {
+    background-color: rgba(111, 56, 1, 0.9);
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
