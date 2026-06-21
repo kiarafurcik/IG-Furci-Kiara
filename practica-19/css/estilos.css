@@ -1,0 +1,54 @@
+body {
+    background-color: #fcf9f2; /* Color mármol travertino claro / pergamino */
+    color: #2b2520; /* Marrón tierra oscuro para una lectura suave y antigua */
+    font-family: 'Cormorant Garamond', serif; /* Tipografía elegante y clásica */
+    font-size: 1.25rem; /* Al ser una fuente serif, un tamaño un poco mayor mejora la lectura */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Cinzel', serif; /* Inspirada en las inscripciones de los monumentos */
+    color: #8c2d19; /* Rojo Pompeyano / Terracota romana */
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 3rem;
+    border-bottom: 2px solid #d4af37; /* Línea dorada bajo el título principal */
+    padding-bottom: 15px;
+    margin-top: 40px;
+}
+h2 {
+    font-family: 'Cinzel', serif; /* Inspirada en las inscripciones de los monumentos */
+    color: #8c6819;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+.texto {
+    font-family: 'Cormorant Garamond', serif; /* Tipografía elegante y clásica */
+    color: #2b2520; /* Marrón tierra oscuro para una lectura suave y antigua */
+    font-size: 1.25rem; /* Al ser una fuente serif, un tamaño un poco mayor mejora la lectura */
+    line-height: 1.6;
+    text-align: justify;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #d4af37; /* Borde dorado para resaltar las imágenes */
+}
+#lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
