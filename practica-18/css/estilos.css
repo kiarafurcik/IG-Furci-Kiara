@@ -1,0 +1,18 @@
+h1 {
+    color: #8c2d19;
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
+}
+.uno {
+    color: #418c19;
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+}
+.dos {
+    color: #19198c;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+body {
+    background-color: #ff009d;
+}
